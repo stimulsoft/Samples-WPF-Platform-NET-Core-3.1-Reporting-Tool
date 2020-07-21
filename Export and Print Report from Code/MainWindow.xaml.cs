@@ -24,7 +24,7 @@ namespace Export_and_Print_Report_from_Code
         {
             var report = new StiReport();
             report.Load(@"Reports\TwoSimpleLists.mrt");
-            report.Print();
+            report.PrintWithWpf();
 
             MessageBox.Show("Complete", "Print Report");
         }
