@@ -35,7 +35,7 @@ namespace Localization_of_the_User_Interface
         private void LoadLocalization()
         {
             var fileName = (string)((Label)ComboBoxLocalizations.SelectedItem).Content;
-            StiLocalization.Load(fileName);
+            StiOptions.Localization.Load(fileName);
         }
 
         private void ButtonShow_Click(object sender, RoutedEventArgs e)
