@@ -26,7 +26,7 @@ namespace Export_and_Print_Report_from_Code
             report.Load(@"Reports\TwoSimpleLists.mrt");
             report.PrintWithWpf();
 
-            MessageBox.Show("Complete", "Print Report");
+            MessageBox.Show("The print action is complete.", "Print Report");
         }
 
         private void ButtonExport_Click(object sender, RoutedEventArgs e)
@@ -66,7 +66,7 @@ namespace Export_and_Print_Report_from_Code
                 stream.CopyTo(fileStream);
             }*/
 
-            MessageBox.Show("Complete", "Export Report");
+            MessageBox.Show("The export action is complete.", "Export Report");
         }
     }
 }

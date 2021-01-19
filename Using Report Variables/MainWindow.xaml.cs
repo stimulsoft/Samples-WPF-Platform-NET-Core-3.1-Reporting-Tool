@@ -23,6 +23,9 @@ namespace Using_Report_Variables
             var report = new StiReport();
             report.Load(@"Reports\Variables.mrt");
 
+            // Required to prepare the in compilation mode
+            report.Compile();
+
             // Set Variables
             report["Name"] = TextBoxName.Text;
             report["Surname"] = TextBoxSurname.Text;

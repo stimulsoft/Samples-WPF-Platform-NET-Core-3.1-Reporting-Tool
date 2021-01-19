@@ -8,13 +8,26 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Wpf" Version="2020.5.2" />
+    <PackageReference Include="Stimulsoft.Reports.Wpf" Version="2021.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="DesignerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 
   <ItemGroup>
     <None Update="Reports\SimpleList.mrt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="DesignerWindow.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 
 </Project>

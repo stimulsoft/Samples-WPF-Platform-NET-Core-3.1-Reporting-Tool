@@ -4,25 +4,25 @@ using System.Windows;
 namespace Edit_Report_in_the_Designer
 {
     /// <summary>
-    /// Interaction logic for DesignerWindow.xaml
+    /// Interaction logic for WpfDesignerWindow.xaml
     /// </summary>
-    public partial class DesignerWindow : Window
+    public partial class WpfDesignerWindow : Window
     {
-        public DesignerWindow()
+        public WpfDesignerWindow()
         {
             InitializeComponent();
         }
 
         private void ButtonNew_Click(object sender, RoutedEventArgs e)
         {
-            StiDesignerControl1.Report = new StiReport();
+            StiWpfDesignerControl1.Report = new StiReport();
         }
 
         private void ButtonEdit_Click(object sender, RoutedEventArgs e)
         {
             var report = new StiReport();
             report.Load(@"Reports\SimpleList.mrt");
-            StiDesignerControl1.Report = report;
+            StiWpfDesignerControl1.Report = report;
         }
     }
 }

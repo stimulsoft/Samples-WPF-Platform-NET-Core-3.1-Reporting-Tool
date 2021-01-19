@@ -60,7 +60,13 @@ namespace Edit_Report_in_the_Designer
             report.DesignV2WithWpf();
         }
 
-        private void ButtonControl_Click(object sender, RoutedEventArgs e)
+        private void ButtonControlV1_Click(object sender, RoutedEventArgs e)
+        {
+            var wpfDesignerWindow = new WpfDesignerWindow();
+            wpfDesignerWindow.ShowDialog();
+        }
+
+        private void ButtonControlV2_Click(object sender, RoutedEventArgs e)
         {
             var designerWindow = new DesignerWindow();
             designerWindow.ShowDialog();

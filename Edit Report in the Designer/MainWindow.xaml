@@ -5,11 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Edit_Report_in_the_Designer"
         mc:Ignorable="d"
-        Title="Edit Report in the Designer" Height="300" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+        Title="Edit Report in the Designer" Height="330" Width="500" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
     <Grid>
-        <Button Content="Create New Report" HorizontalAlignment="Left" Margin="147,56,0,0" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonNew_Click"/>
-        <Button Content="Edit Report in the Designer V1" HorizontalAlignment="Left" Margin="147,99,0,0" Padding="10,5" VerticalAlignment="Top" Click="ButtonV1_Click" Width="190"/>
-        <Button Content="Edit Report in the Designer V2" HorizontalAlignment="Left" Margin="147,132,0,0" Padding="10,5" VerticalAlignment="Top" Click="ButtonV2_Click" Width="190"/>
-        <Button Content="Use the Designer Control" HorizontalAlignment="Left" Margin="147,175,0,0" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonControl_Click"/>
+        <Button Content="Create New Report" HorizontalAlignment="Left" Margin="147,50,0,0" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonNew_Click"/>
+        <Button Content="Edit Report in the Designer V1" HorizontalAlignment="Left" Margin="147,93,0,0" Padding="10,5" VerticalAlignment="Top" Click="ButtonV1_Click" Width="190"/>
+        <Button Content="Edit Report in the Designer V2" HorizontalAlignment="Left" Margin="147,126,0,0" Padding="10,5" VerticalAlignment="Top" Click="ButtonV2_Click" Width="190"/>
+        <Button Content="Use the Designer V1 Control" HorizontalAlignment="Left" Margin="147,169,0,0" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonControlV1_Click"/>
+        <Button Content="Use the Designer V2 Control" HorizontalAlignment="Left" Margin="147,202,0,0" Padding="10,5" VerticalAlignment="Top" Width="190" Click="ButtonControlV2_Click"/>
     </Grid>
 </Window>
