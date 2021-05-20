@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Edit_Report_in_the_Designer</RootNamespace>
+    <RootNamespace>Using_Business_Objects</RootNamespace>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
@@ -12,22 +12,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="DesignerWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="Reports\SimpleList.mrt">
+    <None Update="Reports\BusinessObjects_IEnumerable.mrt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Page Update="DesignerWindow.xaml">
-      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
-      <SubType>Designer</SubType>
-    </Page>
+    <None Update="Reports\BusinessObjects_ITypedList.mrt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

@@ -46,24 +46,11 @@ namespace Edit_Report_in_the_Designer
             report.DesignV2WithWpf();
         }
 
-        private void ButtonV1_Click(object sender, RoutedEventArgs e)
-        {
-            var report = new StiReport();
-            report.Load(@"Reports\SimpleList.mrt");
-            report.DesignWithWpf();
-        }
-
         private void ButtonV2_Click(object sender, RoutedEventArgs e)
         {
             var report = new StiReport();
             report.Load(@"Reports\SimpleList.mrt");
             report.DesignV2WithWpf();
-        }
-
-        private void ButtonControlV1_Click(object sender, RoutedEventArgs e)
-        {
-            var wpfDesignerWindow = new WpfDesignerWindow();
-            wpfDesignerWindow.ShowDialog();
         }
 
         private void ButtonControlV2_Click(object sender, RoutedEventArgs e)

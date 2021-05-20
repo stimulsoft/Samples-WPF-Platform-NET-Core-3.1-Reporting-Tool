@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Edit_Report_in_the_Designer"
         xmlns:WpfDesign="clr-namespace:Stimulsoft.Client.Designer;assembly=Stimulsoft.Client.Designer" x:Class="Edit_Report_in_the_Designer.DesignerWindow"
         mc:Ignorable="d"
-        Title="Designer V2 Control" Height="800" Width="1200">
+        Title="Designer V2 Control" Height="800" Width="1200" WindowStartupLocation="CenterScreen">
     <Grid>
 
         <WpfDesign:StiDesignerControl Name="StiDesignerControl1" RenderTransformOrigin="0.5,0.5" Margin="10,43,10,10">
