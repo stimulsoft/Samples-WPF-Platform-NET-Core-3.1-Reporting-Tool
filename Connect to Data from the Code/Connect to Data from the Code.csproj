@@ -1,16 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
-
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Connect_to_Data_from_the_Code</RootNamespace>
     <UseWPF>true</UseWPF>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Stimulsoft.Reports.Wpf" Version="2021.3.1" />
+    <PackageReference Include="Stimulsoft.Reports.Wpf" Version="2021.3.4" />
   </ItemGroup>
-
   <ItemGroup>
     <Compile Update="Data\Demo.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -18,7 +15,6 @@
       <DependentUpon>Demo.xsd</DependentUpon>
     </Compile>
   </ItemGroup>
-
   <ItemGroup>
     <None Update="Data\Demo.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -35,5 +31,4 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
 </Project>
